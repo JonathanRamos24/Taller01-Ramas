@@ -103,7 +103,7 @@ public class PrimaryController {
                 } catch (FileNotFoundException ex) {
                     ex.printStackTrace();
                 }
-                //actualizar el hbox
+                //actucalizar el hbox
                 Platform.runLater(() -> hbHistorial.getChildren().setAll(iv, lbP));
 
                 //esperar 1 segundo
